@@ -1,0 +1,19 @@
+
+{% extends "base.html" %}
+{% block content %}
+<h2>注册</h2>
+<form method="POST">
+    {{ form.hidden_tag() }}
+    <p>
+        {{ form.username(size=32) }}
+    </p>
+    <p>
+        {{ form.password(size=32) }}
+    </p>
+    <p>
+        {{ form.confirm(size=32) }}
+    </p>
+    <p>{{ form.submit() }}</p>
+</form>
+<p>已有账号？ <a href="{{ url_for('views.login') }}">登录</a></p>
+{% endblock %}

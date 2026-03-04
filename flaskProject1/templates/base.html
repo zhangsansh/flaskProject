@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}可视化系统{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    {% block body %}
+        <div class="login-background">
+            <div class="login-container">
+                {% with messages = get_flashed_messages(with_categories=true) %}
+                  {% if messages %}
+                    {% for category, message in messages %}
+                      <div class="alert alert-{{ category }}">{{ message }}</div>
+                    {% endfor %}
+                  {% endif %}
+                {% endwith %}
+                {% block content %}{% endblock %}
+            </div>
+        <img src="https://sso.xyafu.edu.cn/sso/img/text.png" alt="标语" class="slogan">
+        <img src="https://www.xyafu.edu.cn/images/logo.png" alt="Logo" class="logo">
+        </div>
+    {% endblock %}
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</body>
+</html>
+
+
+

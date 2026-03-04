@@ -1,0 +1,533 @@
+/*!* static/css/styles.css *!*/
+/*body {*/
+/*    font-family: Arial, sans-serif;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+
+/*nav {*/
+/*    background-color: #333;*/
+/*    padding: 1em;*/
+/*    display: flex;*/
+/*    justify-content: space-between; !* 在导航栏中创建左右对齐 *!*/
+/*    align-items: center;*/
+/*}*/
+
+/*.left-nav a, .right-nav a {*/
+/*    color: white;*/
+/*    margin-right: 1em;*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*.right-nav a:last-child {*/
+/*    margin-right: 0; !* 移除最后一个链接的右边距 *!*/
+/*}*/
+
+/*.container {*/
+/*    padding: 2em;*/
+/*}*/
+
+/*.alert {*/
+/*    padding: 1em;*/
+/*    margin-bottom: 1em;*/
+/*    border-radius: 5px;*/
+/*}*/
+
+/*.alert-success {*/
+/*    background-color: #d4edda;*/
+/*    color: #155724;*/
+/*}*/
+
+/*.alert-danger {*/
+/*    background-color: #f8d7da;*/
+/*    color: #721c24;*/
+/*}*/
+/*!* static/css/styles.css *!*/
+/*body {*/
+/*    font-family: Arial, sans-serif;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    background-image: url('https://sso.xyafu.edu.cn/sso/img/banner.png'); !* 添加背景图 *!*/
+/*    background-size: cover; !* 使背景图覆盖整个页面 *!*/
+/*    background-repeat: no-repeat; !* 防止背景图重复 *!*/
+/*    background-position: center; !* 背景图居中 *!*/
+/*    height: 100vh; !* 设置body高度为视口高度 *!*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+
+/*nav {*/
+/*    background-color: rgba(51, 51, 51, 0.8); !* 半透明背景 *!*/
+/*    padding: 1em;*/
+/*    display: flex;*/
+/*    justify-content: space-between; !* 左右对齐 *!*/
+/*    align-items: center;*/
+/*}*/
+
+/*.left-nav a, .right-nav a {*/
+/*    color: white;*/
+/*    margin-right: 1em;*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*.right-nav a:last-child {*/
+/*    margin-right: 0; !* 移除最后一个链接的右边距 *!*/
+/*}*/
+
+/*.container {*/
+/*    flex: 1; !* 使.container占据剩余空间 *!*/
+/*    padding: 2em;*/
+/*    background-color: rgba(255, 255, 255, 0.5); !* 半透明背景 *!*/
+/*    margin: 2em;*/
+/*    border-radius: 10px;*/
+/*}*/
+
+/*.alert {*/
+/*    padding: 1em;*/
+/*    margin-bottom: 1em;*/
+/*    border-radius: 5px;*/
+/*}*/
+
+/*.alert-success {*/
+/*    background-color: #d4edda;*/
+/*    color: #155724;*/
+/*}*/
+
+/*.alert-danger {*/
+/*    background-color: #f8d7da;*/
+/*    color: #721c24;*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
+
+/*!* static/css/styles.css *!*/
+/*body {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    font-family: Arial, sans-serif;*/
+/*    height: 100vh; !* 设置body高度为视口高度 *!*/
+/*    display: flex;*/
+/*    justify-content: flex-end; !* 页面内容靠右对齐 *!*/
+/*    align-items: center; !* 垂直居中 *!*/
+/*    background-color: #f0f0f0; !* 可选：设置背景颜色 *!*/
+/*}*/
+
+/*.login-background {*/
+/*    background-image: url('https://sso.xyafu.edu.cn/sso/img/banner.png');*/
+/*    background-size: cover;*/
+/*    background-position: center;*/
+/*    height: 832.59px;*/
+/*    width: 100%;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.login-container {*/
+/*    width: 395px;*/
+/*    height: 414px;*/
+/*    padding: 20px;*/
+/*    border: 1px solid #ccc;*/
+/*    border-radius: 5px;*/
+/*    background-color: rgba(255, 255, 255, 0.9);*/
+/*    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); !* 可选：添加阴影效果 *!*/
+/*}*/
+
+/*.login-container h2 {*/
+/*    text-align: center;*/
+/*    margin-bottom: 20px;*/
+/*    font-size: 24px; !* 设置标题字体大小 *!*/
+/*}*/
+
+/*.login-container form {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+
+/*.login-container form p {*/
+/*    margin-bottom: 25px; !* 设置输入框之间的间距为25px *!*/
+/*}*/
+
+/*.login-container form input {*/
+/*    padding: 10px; !* 输入框的内边距 *!*/
+/*    border: 1px solid #ccc;*/
+/*    border-radius: 3px;*/
+/*    height: 46px; !* 输入框的高度 *!*/
+/*    width: 100%; !* 输入框的宽度 *!*/
+/*    box-sizing: border-box; !* 包括内边距和边框在内的宽度计算 *!*/
+/*    font-size: 25px; !* 设置输入框字体大小 *!*/
+/*}*/
+
+/*.login-container form input[type="submit"] {*/
+/*    background-color: #4CAF50;*/
+/*    color: white;*/
+/*    border: none;*/
+/*    cursor: pointer;*/
+/*    height: 46px; !* 提交按钮的高度 *!*/
+/*    font-size: 25px; !* 设置按钮字体大小 *!*/
+/*}*/
+
+/*.login-container form input[type="submit"]:hover {*/
+/*    background-color: #45a049;*/
+/*}*/
+
+/*.alert {*/
+/*    padding: 10px;*/
+/*    margin-bottom: 15px;*/
+/*    border-radius: 3px;*/
+/*}*/
+
+/*.alert-danger {*/
+/*    background-color: #f8d7da;*/
+/*    color: #721c24;*/
+/*}*/
+
+/*.alert-success {*/
+/*    background-color: #d4edda;*/
+/*    color: #155724;*/
+/*}*/
+
+
+/*======================================================*/
+
+
+/*!* 设置全局样式 *!*/
+/*body, html {*/
+/*    margin: 0; !* 移除默认边距 *!*/
+/*    padding: 0; !* 移除默认填充 *!*/
+/*    height: 100vh; !* 高度设置为视口高度 *!*/
+/*    font-family: Arial, sans-serif; !* 设置全局字体 *!*/
+/*    background-color: #f0f0f0; !* 设置背景颜色 *!*/
+/*}*/
+
+/*!* 登录页面背景样式 *!*/
+/*.login-background {*/
+/*    background-image: url('https://sso.xyafu.edu.cn/sso/img/banner.png'); !* 设置背景图片 *!*/
+/*    background-size: cover; !* 背景图片覆盖整个容器 *!*/
+/*    background-position: center; !* 背景图片居中对齐 *!*/
+/*    height: 100%; !* 容器高度设置为父元素的高度 *!*/
+/*    width: 100%; !* 容器宽度设置为父元素的宽度 *!*/
+/*    position: relative; !* 设置相对定位，使得子元素可以基于此进行绝对定位 *!*/
+/*    overflow-x: hidden; !* 隐藏水平溢出的内容 *!*/
+/*    overflow-y: hidden; !* 隐藏垂直溢出的内容 *!*/
+/*}*/
+
+/*!* 登录表单容器样式 *!*/
+/*.login-container {*/
+/*    width: 320px; !* 设置固定宽度 *!*/
+/*    height: 350px; !* 设置固定高度 *!*/
+/*    padding: 20px; !* 内部填充 *!*/
+/*    border: 1px solid #ccc; !* 边框样式 *!*/
+/*    border-radius: 5px; !* 圆角边框 *!*/
+/*    background-color: rgba(255, 255, 255, 0.9); !* 半透明白色背景 *!*/
+/*    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); !* 添加阴影效果 *!*/
+/*    position: absolute; !* 使用绝对定位 *!*/
+/*    top: 50%; !* 垂直居中：相对于最近的非静态定位祖先元素 *!*/
+/*    right: 100px; !* 离右边界的距离 *!*/
+/*    transform: translateY(-50%); !* 垂直居中：调整自身高度的一半 *!*/
+/*}*/
+
+/*!* 其余样式保持不变 *!*/
+
+/*!* 登录表单标题样式 *!*/
+/*.login-container h2 {*/
+/*    text-align: center; !* 文本居中 *!*/
+/*    margin-bottom: 20px; !* 底部间距 *!*/
+/*    font-size: 20px; !* 字体大小 *!*/
+/*}*/
+
+/*!* 表单整体布局 *!*/
+/*.login-container form {*/
+/*    display: flex; !* 使用 Flexbox 布局 *!*/
+/*    flex-direction: column; !* 子元素垂直排列 *!*/
+/*}*/
+
+/*!* 表单项之间的间距 *!*/
+/*.login-container form p {*/
+/*    margin-bottom: 0px; !* 设置输入框之间的间距 *!*/
+/*}*/
+
+/*!* 输入框样式 *!*/
+/*.login-container form input {*/
+/*    padding: 10px; !* 内部填充 *!*/
+/*    border: 1px solid #ccc; !* 边框样式 *!*/
+/*    border-radius: 3px; !* 圆角边框 *!*/
+/*    height: 30px; !* 固定高度 *!*/
+/*    width: 100%; !* 宽度占满容器 *!*/
+/*    box-sizing: border-box; !* 确保内边距和边框包含在元素宽度之内 *!*/
+/*    font-size: 16px; !* 字体大小 *!*/
+/*}*/
+
+/*!* 提交按钮样式 *!*/
+/*.login-container form input[type="submit"] {*/
+/*    background-color: #4CAF50; !* 按钮背景颜色 *!*/
+/*    color: white; !* 文字颜色 *!*/
+/*    border: none; !* 移除边框 *!*/
+/*    cursor: pointer; !* 修改鼠标指针为手型 *!*/
+/*    height: 32px; !* 固定高度 *!*/
+/*    font-size: 15px; !* 字体大小 *!*/
+/*}*/
+
+/*!* 提交按钮悬停样式 *!*/
+/*.login-container form input[type="submit"]:hover {*/
+/*    background-color: #45a049; !* 改变悬停时的背景颜色 *!*/
+/*}*/
+
+/*!* 通知消息样式 *!*/
+/*.alert {*/
+/*    padding: 10px; !* 内部填充 *!*/
+/*    margin-bottom: 15px; !* 底部间距 *!*/
+/*    border-radius: 3px; !* 圆角边框 *!*/
+/*}*/
+
+/*!* 错误信息样式 *!*/
+/*.alert-danger {*/
+/*    background-color: #f8d7da; !* 背景颜色 *!*/
+/*    color: #721c24; !* 文字颜色 *!*/
+/*}*/
+
+/*!* 成功信息样式 *!*/
+/*.alert-success {*/
+/*    background-color: #d4edda; !* 背景颜色 *!*/
+/*    color: #155724; !* 文字颜色 *!*/
+/*}*/
+
+/*!* 仪表板内容区域样式 *!*/
+/*.dashboard-content {*/
+/*    width: 100vw; !* 宽度设置为视口宽度 *!*/
+/*    height: 100vh; !* 高度设置为视口高度 *!*/
+/*    display: flex; !* 使用 Flexbox 布局 *!*/
+/*    flex-direction: column; !* 子元素垂直排列 *!*/
+/*    justify-content: center; !* 水平居中内容 *!*/
+/*    align-items: center; !* 垂直居中内容 *!*/
+/*    text-align: center; !* 文本居中 *!*/
+/*    padding: 10px; !* 内部填充 *!*/
+/*    box-sizing: border-box; !* 确保内边距和边框包含在元素宽度之内 *!*/
+/*}*/
+
+/*!* 可视化大屏内容区域样式 *!*/
+/*.visual-dashboard-content {*/
+/*    width: 100%; !* 宽度占满容器 *!*/
+/*    height: 100vh; !* 高度设置为视口高度 *!*/
+/*    display: flex; !* 使用 Flexbox 布局 *!*/
+/*    justify-content: center; !* 水平居中内容 *!*/
+/*    align-items: center; !* 垂直居中内容 *!*/
+/*    text-align: center; !* 文本居中 *!*/
+/*    background-color: #f0f0f0; !* 或者您想要的背景颜色 *!*/
+/*}*/
+
+/*!* 标语样式 *!*/
+/*.slogan {*/
+/*    position: absolute;*/
+/*    top: 30%;*/
+/*    right: 540px; !* 使标语位于登录框左侧 *!*/
+/*    width: 416.64px;*/
+/*    height: 164.64px;*/
+/*    object-fit: contain; !* 保持图片比例 *!*/
+/*}*/
+
+/*!* Logo 样式 *!*/
+/*.logo {*/
+/*    position: absolute;*/
+/*    top: 20px; !* 距离顶部的距离 *!*/
+/*    right: 20px; !* 距离右侧的距离 *!*/
+/*    width: 108.33px;*/
+/*    height: 83px;*/
+/*    object-fit: contain; !* 保持图片比例 *!*/
+/*    background-color: rgba(255, 255, 255, 0.5); !* 设置背景颜色为半透明白色（可调整） *!*/
+
+/*}*/
+
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/* 设置全局样式 */
+body, html {
+    margin: 0; /* 移除默认边距 */
+    padding: 0; /* 移除默认填充 */
+    height: 100vh; /* 高度设置为视口高度 */
+    font-family: Arial, sans-serif; /* 设置全局字体 */
+    background-color: #f0f0f0; /* 设置背景颜色 */
+}
+
+/* 登录页面背景样式 */
+.login-background {
+    background-image: url('https://sso.xyafu.edu.cn/sso/img/banner.png'); /* 设置背景图片 */
+    background-size: cover; /* 背景图片覆盖整个容器 */
+    background-position: center; /* 背景图片居中对齐 */
+    height: 100%; /* 容器高度设置为父元素的高度 */
+    width: 100%; /* 容器宽度设置为父元素的宽度 */
+    position: relative; /* 设置相对定位，使得子元素可以基于此进行绝对定位 */
+    overflow-x: hidden; /* 隐藏水平溢出的内容 */
+    overflow-y: hidden; /* 隐藏垂直溢出的内容 */
+}
+
+/* 登录表单容器样式 */
+.login-container {
+    width: 320px; /* 设置固定宽度 */
+    height: 350px; /* 设置固定高度 */
+    padding: 20px; /* 内部填充 */
+    border: 1px solid #ccc; /* 边框样式 */
+    border-radius: 5px; /* 圆角边框 */
+    background-color: rgba(255, 255, 255, 0.9); /* 半透明白色背景 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+    position: absolute; /* 使用绝对定位 */
+    top: 50%; /* 垂直居中：相对于最近的非静态定位祖先元素 */
+    right: 100px; /* 离右边界的距离 */
+    transform: translateY(-50%); /* 垂直居中：调整自身高度的一半 */
+}
+
+/* 其余样式保持不变 */
+
+/* 登录表单标题样式 */
+.login-container h2 {
+    text-align: center; /* 文本居中 */
+    margin-bottom: 20px; /* 底部间距 */
+    font-size: 20px; /* 字体大小 */
+}
+
+/* 表单整体布局 */
+.login-container form {
+    display: flex; /* 使用 Flexbox 布局 */
+    flex-direction: column; /* 子元素垂直排列 */
+}
+
+/* 表单项之间的间距 */
+.login-container form p {
+    margin-bottom: 0px; /* 设置输入框之间的间距 */
+}
+
+/* 输入框样式 */
+.login-container form input {
+    padding: 10px; /* 内部填充 */
+    border: 1px solid #ccc; /* 边框样式 */
+    border-radius: 3px; /* 圆角边框 */
+    height: 36px; /* 固定高度 */
+    width: 100%; /* 宽度占满容器 */
+    box-sizing: border-box; /* 确保内边距和边框包含在元素宽度之内 */
+    font-size: 16px; /* 字体大小 */
+}
+
+/* 提交按钮样式 */
+.login-container form input[type="submit"] {
+    background-color: #138617; /* 按钮背景颜色 */
+    color: white; /* 文字颜色 */
+    border: none; /* 移除边框 */
+    cursor: pointer; /* 修改鼠标指针为手型 */
+    height: 36px; /* 固定高度 */
+    font-size: 15px; /* 字体大小 */
+}
+
+/* 提交按钮悬停样式 */
+.login-container form input[type="submit"]:hover {
+    background-color: #45a049; /* 改变悬停时的背景颜色 */
+}
+
+/* 通知消息样式 */
+.alert {
+    padding: 10px; /* 内部填充 */
+    margin-bottom: 15px; /* 底部间距 */
+    border-radius: 3px; /* 圆角边框 */
+}
+
+/* 错误信息样式 */
+.alert-danger {
+    background-color: #f8d7da; /* 背景颜色 */
+    color: #721c24; /* 文字颜色 */
+}
+
+/* 成功信息样式 */
+.alert-success {
+    background-color: #d4edda; /* 背景颜色 */
+    color: #155724; /* 文字颜色 */
+}
+
+/* 仪表板内容区域样式 */
+.dashboard-content {
+    width: 100vw; /* 宽度设置为视口宽度 */
+    height: 100vh; /* 高度设置为视口高度 */
+    display: flex; /* 使用 Flexbox 布局 */
+    flex-direction: column; /* 子元素垂直排列 */
+    justify-content: center; /* 水平居中内容 */
+    align-items: center; /* 垂直居中内容 */
+    text-align: center; /* 文本居中 */
+    padding: 10px; /* 内部填充 */
+    box-sizing: border-box; /* 确保内边距和边框包含在元素宽度之内 */
+}
+
+/* 可视化大屏内容区域样式 */
+.visual-dashboard-content {
+    width: 100%; /* 宽度占满容器 */
+    height: 100vh; /* 高度设置为视口高度 */
+    display: flex; /* 使用 Flexbox 布局 */
+    justify-content: center; /* 水平居中内容 */
+    align-items: center; /* 垂直居中内容 */
+    text-align: center; /* 文本居中 */
+    background-color: #f0f0f0; /* 或者您想要的背景颜色 */
+}
+
+/* 标语样式 */
+.slogan {
+    position: absolute;
+    top: 30%;
+    right: 540px; /* 使标语位于登录框左侧 */
+    width: 416.64px;
+    height: 164.64px;
+    object-fit: contain; /* 保持图片比例 */
+}
+
+/* Logo 样式 */
+.logo {
+    position: absolute;
+    top: 30px; /* 距离顶部的距离 */
+    left: 30px; /* 距离右侧的距离 */
+    width: 236px;
+    height: 61px;
+    object-fit: contain; /* 保持图片比例 */
+    /*background-color: rgba(255, 255, 255, 0.5); !* 设置背景颜色为半透明白色（可调整） *!*/
+
+}
+
+
+
+/* 输入框样式 */
+.login-container form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    height: 36px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* 输入框占位符样式 */
+.login-container form input::placeholder {
+    color: #aaa;
+}
+
+
+/* 输入框样式 */
+.login-container form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    height: 36px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* 输入框占位符样式 */
+.login-container form input::placeholder {
+    color: #aaa;
+}
+
